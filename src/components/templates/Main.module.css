@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: calc(100% - 200px);
+}
+
+.card {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+}
+
+.card img {
+  width: 150xp;
+  height: 130px;
+  border-radius: 3px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info div {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.info span svg {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  height: 25px;
+  color: #fe5d42;
+  cursor: pointer;
+}

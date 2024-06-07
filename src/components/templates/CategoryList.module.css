@@ -1,0 +1,41 @@
+.list {
+  margin: 50px 0px 70px;
+}
+
+.list div {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+  padding: 15px;
+  border: 2px solid #eaeaea;
+  border-radius: 5px;
+}
+
+.list h5 {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  width: 120px;
+}
+
+.list span {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  color: #a62626;
+  /* background-color: #a626; */
+}
+
+.list span p,
+.list span button {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  color: #a62626;
+  /* background-color: #eee; */
+}
+
+.list span button {
+  width: 45px;
+  padding: 5px;
+  margin: auto;
+}

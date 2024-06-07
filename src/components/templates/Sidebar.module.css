@@ -1,0 +1,38 @@
+.sidebar {
+  width: 200px;
+  margin-top: 30px;
+  /* background-color: antiquewhite; */
+}
+
+.sidebar li {
+  width: fit-content;
+  display: flex;
+  margin: 20px 0px;
+}
+
+.sidebar li p,
+.sidebar p {
+  margin-right: 10px;
+  font-weight: 200;
+  color: gray;
+  cursor: pointer;
+}
+
+.all_category {
+  display: flex;
+  align-items: center;
+  /* margin-top: 20px; */
+  margin-right: 3px !important;
+}
+
+.all_category svg {
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+
+.selected {
+  background-color: #f7753d49;
+  color: #fe5d42;
+  padding: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #2ee47a;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 240px;
+    line-height: 50px;
+    margin-top: 30px;
+    padding: 20px;
+    color: gray;
+    border: 2px dashed #a62626;
+    border-radius: 40px;
+}
